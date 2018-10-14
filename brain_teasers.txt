@@ -1,4 +1,4 @@
--Question: 
+-Question1: 
   A man is walking through the park one day and sees a group of four boys standing in a circle. A smaller boy is holding a large stick and hands it to a larger boy saying "I couldn't do it, your turn."
   The larger boy swings the stick twice and the other two boys go to the ground. The smaller boy says "I'll get 'em next time." The man walks away smiling.
   What just happened?
@@ -7,7 +7,7 @@
   They are hitting a pinata - the first boy hits it once, the second boy hits it twice and it opens
 
 
--Question: 
+-Question2: 
   There are 3 men, two Chimps, and one Gorilla on one side of a river:
   They have a boat but only the men and the Gorilla can row the boat across, so there must always be a human and/or Gorilla on the boat.
   The boat can only carry two people/monkeys.
@@ -29,3 +29,15 @@
 -> Gorilla and Chimp (0 men, 0 Gorilla, 1 Chimps | 3 men, 1 Gorilla, 1 Chimps)
 <- Gorilla (0 men, 1 Gorilla, 1 Chimps | 3 men, 0 Gorilla, 1 Chimps)
 -> Gorilla and Chimp (0 men, 0 Gorilla, 0 Chimps | 3 men, 1 Gorilla, 2 Chimps)
+
+
+-Question3:
+  You are playing a game of dodge ball with two other people, John and Tom. 
+  You're standing in a triangle and you all take turns throwing at one of the others of your choosing until there is only one person remaining. 
+  You have a 30 percent chance of hitting someone you aim at, John has a 50 percent chance, and Tom a 100 percent change (he never misses). If you hit somebody they are out and no longer get a turn.
+  If the order of throwing is you, John, then Tom; what should you do to have the best chance of winning?
+
+-Solution:
+  Miss the first time giving John the opportunity to get Tom out since he has a 50% chance. Then since Tom is out, you are the next person to get a shot
+  giving you the chance to get John out
+
