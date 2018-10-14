@@ -1,3 +1,6 @@
-test test test
-test1 test1 test1
-test1 again
+-Question: 
+  A man is walking through the park one day and sees a group of four boys standing in a circle. A smaller boy is holding a large stick and hands it to a larger boy saying "I couldn't do it, your turn."
+  The larger boy swings the stick twice and the other two boys go to the ground. The smaller boy says "I'll get 'em next time." The man walks away smiling.
+  What just happened?
+-Solution:
+  They are hitting a pinata - the first boy hits it once, the second boy hits it twice and it opens
