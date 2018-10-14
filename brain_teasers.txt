@@ -2,5 +2,30 @@
   A man is walking through the park one day and sees a group of four boys standing in a circle. A smaller boy is holding a large stick and hands it to a larger boy saying "I couldn't do it, your turn."
   The larger boy swings the stick twice and the other two boys go to the ground. The smaller boy says "I'll get 'em next time." The man walks away smiling.
   What just happened?
+
 -Solution:
   They are hitting a pinata - the first boy hits it once, the second boy hits it twice and it opens
+
+
+-Question: 
+  There are 3 men, two Chimps, and one Gorilla on one side of a river:
+  They have a boat but only the men and the Gorilla can row the boat across, so there must always be a human and/or Gorilla on the boat.
+  The boat can only carry two people/monkeys.
+  If monkeys and humans are together on one side of the river there must be as many or more people than monkeys for the men's safety.
+  How can all men and monkeys make it to the other side?
+
+-Solution:
+  (3 men, 1 Gorilla, 2 Chimps | 0 men, 0 Gorilla, 0 Chimps)
+-> Chimp and Gorilla (3 men, 0 Gorilla, 1 Chimps | 0 men, 1 Gorilla, 1 Chimps)
+<- Gorilla (3 men, 1 Gorilla, 1 Chimps | 0 men, 0 Gorilla, 1 Chimps)
+-> Chimp and Gorilla (3 men, 0 Gorilla, 0 Chimps | 0 men, 1 Gorilla, 2 Chimps)
+<- Gorilla (3 men, 1 Gorilla, 0 Chimps | 0 men, 0 Gorilla, 2 Chimps)
+-> Two men (1 men, 1 Gorilla, 0 Chimps | 2 men, 0 Gorilla, 2 Chimps)
+<- Human and Chimp (2 men, 1 Gorilla, 1 Chimps | 1 men, 0 Gorilla, 1 Chimps)
+-> Human and Gorilla (1 men, 0 Gorilla, 1 Chimps | 2 men, 1 Gorilla, 1 Chimps)
+<- Human and Chimp (2 men, 0 Gorilla, 2 Chimps | 1 men, 1 Gorilla, 0 Chimps)
+-> 2 men (0 men, 0 Gorilla, 2 Chimps | 3 men, 1 Gorilla, 0 Chimps)
+<- Gorilla (0 men, 1 Gorilla, 2 Chimps | 3 men, 0 Gorilla, 0 Chimps)
+-> Gorilla and Chimp (0 men, 0 Gorilla, 1 Chimps | 3 men, 1 Gorilla, 1 Chimps)
+<- Gorilla (0 men, 1 Gorilla, 1 Chimps | 3 men, 0 Gorilla, 1 Chimps)
+-> Gorilla and Chimp (0 men, 0 Gorilla, 0 Chimps | 3 men, 1 Gorilla, 2 Chimps)
